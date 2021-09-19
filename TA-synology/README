@@ -1,14 +1,12 @@
-# QNAP Technical Add-on for Splunk
+# Synology DSM Technical Add-on for Splunk
 
 ## System requirements
-- QES 2.0.0 or newer 
-- Splunk 7.0 or newer
+- Tested on Synology DSM v7.0-41890
+- Tested with Splunk 8.1.1
 
 ## Installation
 Install the add-on on: 
 Search Heads - The add-on contains search time extractions 
-Indexers - Needed for index time operations in case the syslog flow is targetting this instances
-Heavy Forwaders - Needed for index time operations in case the syslog flow is targetting this instances
 
 ## Configuration
 ### Splunk
@@ -21,7 +19,7 @@ NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsys
 #### Monitoring log files
 - Configure a new file monitor input pointing to the new index using the "qnap:syslog" sourcetype
 
-### QES
+### Synology DSM
 - Configure syslog outputs
 For more information please refer to the [QNAP documentation](http://docs.qnap.com/esnas/2.0.0/en/index.html).
 
