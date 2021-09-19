@@ -36,14 +36,11 @@ Search Heads - The add-on contains search time extractions
 
 ## Configuration
 ### Splunk
-- Configure a new index (e.g. storage) for the new logs
+- Configure a new index and give it a name (synology).
 
 #### Receiving syslogs on Splunk
 NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsyslog, syslog-ng, etc)
-- Configure new TCP port (e.g. 514) pointing to the new index using the "synology:syslog" sourcetype
-
-#### Monitoring log files
-- Configure a new file monitor input pointing to the new index using the "synology:syslog" sourcetype
+- Configure a new Data Input using a UDP/TCP port such as 514 pointing to the new index using the "synology" sourcetype.
 
 ### Synology DSM
 - Install the Log Center package from the Package Center.
