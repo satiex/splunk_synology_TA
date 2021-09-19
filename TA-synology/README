@@ -14,22 +14,14 @@ Search Heads - The add-on contains search time extractions
 
 #### Receiving syslogs on Splunk
 NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsyslog, syslog-ng, etc)
-- Configure new TCP port (e.g. 514) pointing to the new index using the "qnap:syslog" sourcetype
+- Configure new TCP port (e.g. 514) pointing to the new index using the "synology:syslog" sourcetype
 
 #### Monitoring log files
-- Configure a new file monitor input pointing to the new index using the "qnap:syslog" sourcetype
+- Configure a new file monitor input pointing to the new index using the "synology:syslog" sourcetype
 
 ### Synology DSM
 - Configure syslog outputs
-For more information please refer to the [QNAP documentation](http://docs.qnap.com/esnas/2.0.0/en/index.html).
-
-## Troubleshooting
-
+For more information please refer to the [QNAP documentation](https://kb.synology.com/en-global/DSM/help/LogCenter/logcenter_client?version=7).
 
 ## Support
-You can file bug reports on our [GitHub issue tracker](https://github.com/diogofgm/TA-qnap/issues) and they will be addressed as soon as possible.
-**Support is a volunteer effort** and there is no guaranteed response time.
-
-
-## Online documentation
-http://ta-qnap.readthedocs.org
+Please file bug reports to our [GitHub issue tracker](https://github.com/satiex/splunk_synology_TA/issues) and they will be addressed as soon as possible.
