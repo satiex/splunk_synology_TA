@@ -67,3 +67,7 @@ For more information please refer to the [Synology documentation](https://kb.syn
 
 ## Support
 Please file bug reports to our [GitHub issue tracker](https://github.com/satiex/splunk_synology_TA/issues) and they will be addressed as soon as possible.
+
+## TODO
+- Synology DSM has a lot of featuers and functionality. I have not yet explored which actions or events generate a log. If you would like to contribute, please test as much of the different features of your Synology DSM and work on the log extractions for each event.
+- I'm currently attempting to get file sizes into a consisted format (Bytes). I've started a post in the Splunk Community forums here: https://community.splunk.com/t5/Splunk-Search/Converting-variable-File-Size-Units-with-dot-points-to-bytes/m-p/567504
