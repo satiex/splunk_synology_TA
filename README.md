@@ -22,7 +22,8 @@ This repo contains a Synology Technical Add-On for Splunk.
 This app is currently in development. Contributions are welcome.
 
 ## Credits
-I used [TA-qnap](https://github.com/diogofgm/TA-qnap) by @diogofgm as a starting point.
+- I used [TA-qnap](https://github.com/diogofgm/TA-qnap) by @diogofgm as a starting point.
+- ITWhisperer from the [Splunk Community Forums](https://community.splunk.com/).
 
 # Synology DSM Technical Add-on for Splunk
 
