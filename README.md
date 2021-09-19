@@ -39,13 +39,13 @@ Search Heads - The add-on contains search time extractions
 - Configure a new index and give it a name (synology).
 
 #### Receiving syslogs on Splunk
-NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsyslog, syslog-ng, etc)
+NOTE: We recommend that you forward logs from Synology to a dedicated Syslog server (rsyslog, syslog-ng) which will then forward the logs to Splunk.
 - Configure a new Data Input using a UDP/TCP port such as 514 pointing to the new index using the "synology" sourcetype.
 
 ### Synology DSM
 - Install the Log Center package from the Package Center.
 - Configure the Log Sending settings.
-  - Server: IP or hostname of Splunk Indexer or Splunk Heavy Forwarder
+  - Server: IP or hostname of Splunk Indexer, Splunk Heavy Forwarder, or your Syslog server which then forwards logs to Splunk.
   - Port: listening port (514)
   - Transfer Protocol: UDP or TCP
   - Log format: BSD (RFC 3164)
