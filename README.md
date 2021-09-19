@@ -60,8 +60,14 @@ NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsys
   
 ![image](https://user-images.githubusercontent.com/22540060/133915532-cb0c0240-b993-4cfa-bcb8-906917e1a669.png)
 
-
 For more information please refer to the [Synology documentation](https://kb.synology.com/en-global/DSM/help/LogCenter/logcenter_client?version=7).
+
+- Configure the File Transfer logs.
+  - Go to Control Panel > File Services > SMB and click Enable Tranfer Log and then configure the Log Settings.
+  - For the most verbose logs, confige as per image below.
+
+![image](https://user-images.githubusercontent.com/22540060/133915733-e38f3427-d9ba-4fd3-9149-46de92e36e94.png)
+
 
 ## Support
 Please file bug reports to our [GitHub issue tracker](https://github.com/satiex/splunk_synology_TA/issues) and they will be addressed as soon as possible.
