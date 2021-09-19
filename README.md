@@ -59,10 +59,16 @@ NOTE: We recommend that you forward logs from Synology to a dedicated Syslog ser
 ![image](https://user-images.githubusercontent.com/22540060/133915532-cb0c0240-b993-4cfa-bcb8-906917e1a669.png)
 
 - Configure the File Transfer logs.
-  - Go to Control Panel > File Services > SMB and click Enable Tranfer Log and then configure the Log Settings.
-  - For the most verbose logs, confige as per image below.
+  - Go to Control Panel > File Services
+  - For SMB, click Enable Tranfer Log and then configure the Log Settings.
+    - For the most verbose logs, confige as per image below.
 
 ![image](https://user-images.githubusercontent.com/22540060/133915733-e38f3427-d9ba-4fd3-9149-46de92e36e94.png)
+   
+   - For AFP, click Enable transfer log.
+![image](https://user-images.githubusercontent.com/22540060/133917124-bb856f98-6180-404a-9794-b313b1218662.png)
+ 
+
 
 For more information please refer to the [Synology documentation](https://kb.synology.com/en-global/DSM/help/LogCenter/logcenter_client?version=7).
 
