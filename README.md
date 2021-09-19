@@ -3,7 +3,7 @@ This repo contains a Synology Technical Add-On for Splunk.
 
 ```
 .
-└──splunk_synology_TA
+└──TA_synology
   ├── default
   │   └── app.conf
   │   └── eventypes.conf
