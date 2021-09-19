@@ -1,0 +1,37 @@
+# QNAP Technical Add-on for Splunk
+
+## System requirements
+- QES 2.0.0 or newer 
+- Splunk 7.0 or newer
+
+## Installation
+Install the add-on on: 
+Search Heads - The add-on contains search time extractions 
+Indexers - Needed for index time operations in case the syslog flow is targetting this instances
+Heavy Forwaders - Needed for index time operations in case the syslog flow is targetting this instances
+
+## Configuration
+### Splunk
+- Configure a new index (e.g. storage) for the new logs
+
+#### Receiving syslogs on Splunk
+NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsyslog, syslog-ng, etc)
+- Configure new TCP port (e.g. 514) pointing to the new index using the "qnap:syslog" sourcetype
+
+#### Monitoring log files
+- Configure a new file monitor input pointing to the new index using the "qnap:syslog" sourcetype
+
+### QES
+- Configure syslog outputs
+For more information please refer to the [QNAP documentation](http://docs.qnap.com/esnas/2.0.0/en/index.html).
+
+## Troubleshooting
+
+
+## Support
+You can file bug reports on our [GitHub issue tracker](https://github.com/diogofgm/TA-qnap/issues) and they will be addressed as soon as possible.
+**Support is a volunteer effort** and there is no guaranteed response time.
+
+
+## Online documentation
+http://ta-qnap.readthedocs.org
