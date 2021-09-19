@@ -20,3 +20,31 @@ This repo contains a Synology Technical Add-On for Splunk.
 ```
 
 This app is currently in development. Contributions are welcome.
+
+# Synology DSM Technical Add-on for Splunk
+
+## System requirements
+- Tested on Synology DSM v7.0-41890
+- Tested with Splunk 8.1.1
+
+## Installation
+Install the add-on on: 
+Search Heads - The add-on contains search time extractions 
+
+## Configuration
+### Splunk
+- Configure a new index (e.g. storage) for the new logs
+
+#### Receiving syslogs on Splunk
+NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsyslog, syslog-ng, etc)
+- Configure new TCP port (e.g. 514) pointing to the new index using the "synology:syslog" sourcetype
+
+#### Monitoring log files
+- Configure a new file monitor input pointing to the new index using the "synology:syslog" sourcetype
+
+### Synology DSM
+- Configure syslog outputs
+For more information please refer to the [QNAP documentation](https://kb.synology.com/en-global/DSM/help/LogCenter/logcenter_client?version=7).
+
+## Support
+Please file bug reports to our [GitHub issue tracker](https://github.com/satiex/splunk_synology_TA/issues) and they will be addressed as soon as possible.
