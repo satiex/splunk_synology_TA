@@ -44,7 +44,7 @@ NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsys
 
 ### Synology DSM
 - Configure syslog outputs
-For more information please refer to the [QNAP documentation](https://kb.synology.com/en-global/DSM/help/LogCenter/logcenter_client?version=7).
+For more information please refer to the [Synology documentation](https://kb.synology.com/en-global/DSM/help/LogCenter/logcenter_client?version=7).
 
 ## Support
 Please file bug reports to our [GitHub issue tracker](https://github.com/satiex/splunk_synology_TA/issues) and they will be addressed as soon as possible.
