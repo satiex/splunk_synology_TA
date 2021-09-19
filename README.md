@@ -47,7 +47,7 @@ NOTE: We recommend that you forward logs from Synology to a dedicated Syslog ser
 - Install the Log Center package from the Package Center.
 - Configure the Log Sending settings.
   - Server: IP or hostname of Splunk Indexer, Splunk Heavy Forwarder, or your Syslog server which then forwards logs to Splunk.
-  - Port: listening port (514)
+  - Port: Listening port (514)
   - Transfer Protocol: UDP or TCP
   - Log format: BSD (RFC 3164)
 
@@ -61,7 +61,7 @@ NOTE: We recommend that you forward logs from Synology to a dedicated Syslog ser
 - Configure the File Transfer logs.
   - Go to Control Panel > File Services
   - For SMB, click Enable Tranfer Log and then configure the Log Settings.
-    - For the most verbose logs, confige as per image below.
+    - For the most verbose logs, configure as per image below.
 
 ![image](https://user-images.githubusercontent.com/22540060/133915733-e38f3427-d9ba-4fd3-9149-46de92e36e94.png)
    
