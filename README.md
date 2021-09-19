@@ -46,7 +46,21 @@ NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsys
 - Configure a new file monitor input pointing to the new index using the "synology:syslog" sourcetype
 
 ### Synology DSM
-- Configure syslog outputs
+- Install the Log Center package from the Package Center.
+- Configure the Log Sending settings.
+  - Server: IP or hostname of Splunk Indexer or Splunk Heavy Forwarder
+  - Port: listening port (514)
+  - Transfer Protocol: UDP or TCP
+  - Log format: BSD (RFC 3164)
+
+![image](https://user-images.githubusercontent.com/22540060/133915040-7bb8b20f-cea8-4096-8784-b12ed310aaa1.png)
+
+- Configure the Log Filters settings.
+  - For the most verbose logs, configure as per image below.
+  
+![image](https://user-images.githubusercontent.com/22540060/133915532-cb0c0240-b993-4cfa-bcb8-906917e1a669.png)
+
+
 For more information please refer to the [Synology documentation](https://kb.synology.com/en-global/DSM/help/LogCenter/logcenter_client?version=7).
 
 ![image](https://user-images.githubusercontent.com/22540060/133915040-7bb8b20f-cea8-4096-8784-b12ed310aaa1.png)
