@@ -20,6 +20,7 @@ This repo contains a Synology Technical Add-On for Splunk.
 ```
 
 This app is currently in development. Contributions are welcome.
+If you would like to assist with field extraction, please view the [Field Extraction Register](https://github.com/satiex/splunk_synology_TA/blob/main/synology_TA_field_register.csv). More Log messages will be added as I discover them.
 
 ## Credits
 - I used [TA-qnap](https://github.com/diogofgm/TA-qnap) by @diogofgm as a starting point.
