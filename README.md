@@ -63,7 +63,5 @@ NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsys
 
 For more information please refer to the [Synology documentation](https://kb.synology.com/en-global/DSM/help/LogCenter/logcenter_client?version=7).
 
-![image](https://user-images.githubusercontent.com/22540060/133915040-7bb8b20f-cea8-4096-8784-b12ed310aaa1.png)
-
 ## Support
 Please file bug reports to our [GitHub issue tracker](https://github.com/satiex/splunk_synology_TA/issues) and they will be addressed as soon as possible.
