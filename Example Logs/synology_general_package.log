@@ -1,7 +1,7 @@
-Sep 20 22:38:14 172.17.0.1 Sep 20 22:38:14 GRV-SYN-NAS System administrator:	Package [VirtualHere] has been successfully installed.
-Sep 20 22:36:37 172.17.0.1 Sep 20 22:36:37 GRV-SYN-NAS System administrator:	Package [WebDAV Server] has been successfully installed.
-Sep 20 22:36:13 172.17.0.1 Sep 20 22:36:13 GRV-SYN-NAS System administrator:	Package [Text Editor] has been successfully installed.
-Sep 16 23:30:42 172.17.0.1 Sep 16 23:30:42 GRV-SYN-NAS System administrator:	Package [Active Backup for Business] has been successfully uninstalled.
-Sep 16 23:19:08 172.17.0.1 Sep 16 23:19:08 GRV-SYN-NAS System administrator:	Package [Active Backup for Business] has been successfully installed.
-Sep 16 22:49:09 172.17.0.1 Sep 16 22:49:09 GRV-SYN-NAS System administrator:	Package [Hyper Backup] has been successfully installed.
-Sep 16 22:45:41 172.17.0.1 Sep 16 22:45:41 GRV-SYN-NAS System administrator:	Package [Universal Search] has been successfully updated.
+Sep 20 22:38:14 172.17.0.1 Sep 20 22:38:14 Syno_Nas System administrator:	Package [VirtualHere] has been successfully installed.
+Sep 20 22:36:37 172.17.0.1 Sep 20 22:36:37 Syno_Nas System administrator:	Package [WebDAV Server] has been successfully installed.
+Sep 20 22:36:13 172.17.0.1 Sep 20 22:36:13 Syno_Nas System administrator:	Package [Text Editor] has been successfully installed.
+Sep 16 23:30:42 172.17.0.1 Sep 16 23:30:42 Syno_Nas System administrator:	Package [Active Backup for Business] has been successfully uninstalled.
+Sep 16 23:19:08 172.17.0.1 Sep 16 23:19:08 Syno_Nas System administrator:	Package [Active Backup for Business] has been successfully installed.
+Sep 16 22:49:09 172.17.0.1 Sep 16 22:49:09 Syno_Nas System administrator:	Package [Hyper Backup] has been successfully installed.
+Sep 16 22:45:41 172.17.0.1 Sep 16 22:45:41 Syno_Nas System administrator:	Package [Universal Search] has been successfully updated.
