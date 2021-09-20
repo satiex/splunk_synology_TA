@@ -3,7 +3,9 @@ synology:file_transfer,synology_ft_basefields,"Sep 19 22:29:46 172.17.0.1 Sep 19
 ","\sWinFileService Event:\s(?<action>create|write|read|delete|rename),\sPath:\s(?<path>.+?(?=,)),\sFile\/Folder:\s(?<file_folder>File|Folder),\sSize:\s(?<sizeValue>[\d.]+)\s?(?<sizeUnit>\w*),\sUser:\s(?<user>[^\,]*),\sIP:\s(?<src_ip>[[ipv4]])",When you interact with a file on a network share.,In Progress,Satiex
 synology:connection,synology_conn_authentication,Sep 16 22:42:11 172.17.0.1 Sep 16 22:42:11 SYN-NAS Connection: User [administrator] from [192.168.19.59] signed in to [DSM] successfully via [password].,"host_ip, hostname, message, user, src_ip, application, auth_method",Connection:\sUser\s\[(?<user>.+?(?=]))\]\sfrom\s\[(?<src_ip>.+?(?=\]))]\ssigned\sin\sto\s\[(?<application>.+?(?=]))\]\ssuccessfully\svia\s\[(?<auth_method>.+?(?=])),Logging into the DSM interface.,In Progress,Satiex
 synology:file_transfer,synology_ft_filename,"Sep 19 22:29:46 172.17.0.1 Sep 19 22:29:46 SYN-NAS WinFileService Event: read, Path: /docker/splunk/apps/TA-synology/default/props.conf, File/Folder: File, Size: 1.89 KB, User: john.smith@ldap.local.com, IP: 192.168.1.59",filename,".*\/(?<filename>.*.+?(?=,\sFile\/Folder))",Extracting the filename from the full UNC path.,In Progress,Satiex
-synology:connection,,Sep 19 16:13:31 172.17.0.1 Sep 19 16:13:31 SYN-NAS Connection: User [john.smith@ldap.local.com] from [DESKTOP-600SD3R(192.168.19.59)] via [CIFS(SMB3)] accessed shared folder [Movies].,"host_ip, hostname, message, user, src_hostname, src_ip, protocol, shared_folder",Connection:\sUser\s\[(?<user>.+?(?=]))\]\sfrom\s\[(?<src_hostname>.+?(?=\())\((?<src_ip>.+?(?=\)))\)\]\svia\s\[(?<protocol>.+?(?=)\))\]\saccessed\sshared\sfolder\s\[(?<shared_folder>.+?(?=])),When you connect to a network share via SMB (may be similar for other protocols).,In Progress,Satiex
+synology:connection,,"Sep 19 16:13:31 172.17.0.1 Sep 19 16:13:31 SYN-NAS Connection: User [john.smith@ldap.local.com] from [DESKTOP-600SD3R(192.168.19.59)] via [CIFS(SMB3)] accessed shared folder [Movies].
+
+Sep 20 17:02:32 172.17.0.1 Sep 20 17:02:32 Work_Synology Connection: User [billy] from [home-pc(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [Documents].","host_ip, hostname, message, user, src_hostname, src_ip, protocol, shared_folder",Connection:\sUser\s\[(?<user>.+?(?=]))\]\sfrom\s\[(?<src_hostname>.+?(?=\())\((?<src_ip>.+?(?=\)))\)\]\svia\s\[(?<protocol>.+?(?=)\))\]\saccessed\sshared\sfolder\s\[(?<shared_folder>.+?(?=])),When you connect to a network share via SMB (may be similar for other protocols).,In Progress,Satiex
 synology:general,synology_general_service,"Sep 19 15:55:09 172.17.0.1 Sep 19 15:55:09 SYN-NAS System administrator:	FTP service was stopped.","host_ip, hostname, service_name, action, message",,A service is stopped.,,
 ,,Sep 19 15:55:08 172.17.0.1 Sep 19 15:55:08 SYN-NAS System: System successfully stopped [FTP].,"host_ip, hostname, user, action, service name, message",,Another service is stopped event.,,
 synology:general,synology_general_service,Sep 17 00:27:41 172.17.0.1 Sep 17 00:27:41 SYN-NAS System SYSTEM: [Synology Drive Server] service was stopped.,"host_ip, hostname, user, service, message, service_status","System\s(?<user>.+?(?=:)):	\[(?<service_name>.+?(?=\]))]\sservice\swas\s(?<service_status>.+?(?=\.))",Service is stopped with square brackets around service name.,In Progress,Satiex
@@ -21,4 +23,22 @@ synology:general,synology_general_recycle,Sep 16 23:26:32 172.17.0.1 Sep 16 23:2
 synology:general,synology_general_shared_folder,Sep 16 23:25:38 172.17.0.1 Sep 16 23:25:37 SYN-NAS System administrator: Normal shared folder [Remote_Backup] was created.,"host_ip, hostname, message, shared_folder, action",,When a new Network Shared Folder is created.,,
 ,,Sep 16 22:41:50 172.17.0.1 Sep 16 22:41:50 SYN-NAS Connection: User [john.smith@ldap.local.com] from [192.168.19.59] failed to sign in to [DSM] via [password] due to authorization failure.,"host_ip, hostname, message, username, src_ip, application, auth_method",,A user logged attempted to log into DSM with a correct username but an incorrect password.,,
 synology:file_transfer,synology_file_transfer_rename,"Sep 16 16:56:30 172.17.0.1 Sep 16 16:56:30 SYN-NAS WinFileService Event: rename, Path: /Documents/Jane/Scans to Sort/invoice.pdf -> /Documents/Jane/Scans to Sort/paid_invoice.pdf, File/Folder: File, Size: 943.95 KB, User: jane.smith@ldap.bourneid.com, IP: 192.168.6.8","host_ip, hostname, original_path, new_path, file_folder, file_size, user, src_ip",,A user renamed a file via SMB.,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
 ,,,,,,,
