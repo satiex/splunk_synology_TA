@@ -1,0 +1,19 @@
+Sep 20 17:14:32 172.17.0.1 Sep 20 17:14:32 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-600SD3R(192.168.19.59)] via [CIFS(SMB3)] accessed shared folder [docker].
+Sep 20 17:14:32 172.17.0.1 Sep 20 17:14:32 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-600SD3R(192.168.19.59)] via [CIFS(SMB3)] accessed shared folder [Law].
+Sep 20 17:14:32 172.17.0.1 Sep 20 17:14:32 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-600SD3R(192.168.19.59)] via [CIFS(SMB3)] accessed shared folder [Software].
+Sep 20 17:14:32 172.17.0.1 Sep 20 17:14:32 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-600SD3R(192.168.19.59)] via [CIFS(SMB3)] accessed shared folder [Cyber Security].
+Sep 20 17:14:32 172.17.0.1 Sep 20 17:14:32 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-600SD3R(192.168.19.59)] via [CIFS(SMB3)] accessed shared folder [Documents].
+Sep 20 17:14:32 172.17.0.1 Sep 20 17:14:32 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-600SD3R(192.168.19.59)] via [CIFS(SMB3)] accessed shared folder [Movies].
+Sep 20 17:14:32 172.17.0.1 Sep 20 17:14:32 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-600SD3R(192.168.19.59)] via [CIFS(SMB3)] accessed shared folder [Shows].
+Sep 20 17:06:25 172.17.0.1 Sep 20 17:06:25 Syno_Nas Connection: User [bill.johns@ldap.bourneid.com] from [KYLINDRIAS(192.168.1.20)] via [CIFS(SMB3)] accessed shared folder [Documents].
+Sep 20 17:02:40 172.17.0.1 Sep 20 17:02:40 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-58UFUBE(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [Software].
+Sep 20 17:02:39 172.17.0.1 Sep 20 17:02:39 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-58UFUBE(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [Movies].
+Sep 20 17:02:32 172.17.0.1 Sep 20 17:02:32 Syno_Nas Connection: User [marcus.hunt@ldap.bourneid.com] from [DESKTOP-58UFUBE(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [Documents].
+Sep 20 17:02:31 172.17.0.1 Sep 20 17:02:31 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-58UFUBE(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [docker].
+Sep 20 17:02:24 172.17.0.1 Sep 20 17:02:24 Syno_Nas Connection: User [marcus.hunt@ldap.bourneid.com] from [DESKTOP-58UFUBE(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [Photos].
+Sep 20 17:01:27 172.17.0.1 Sep 20 17:01:27 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-58UFUBE(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [Shows].
+Sep 20 17:00:34 172.17.0.1 Sep 20 17:00:34 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-58UFUBE(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [docker].
+Sep 20 17:00:33 172.17.0.1 Sep 20 17:00:33 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-58UFUBE(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [Documents].
+Sep 20 17:00:33 172.17.0.1 Sep 20 17:00:33 Syno_Nas Connection: User [john.smith@ldap.bourneid.com] from [DESKTOP-58UFUBE(192.168.6.16)] via [CIFS(SMB3)] accessed shared folder [Scans].
+Sep 20 16:56:08 172.17.0.1 Sep 20 16:56:08 Syno_Nas Connection: User [wordpress] from [(192.168.20.1)] via [CIFS(SMB3)] accessed shared folder [Website_backup].
+Sep 20 16:55:57 172.17.0.1 Sep 20 16:55:57 Syno_Nas Connection: User [wordpress] from [(192.168.20.1)] via [CIFS(SMB3)] accessed shared folder [Website_backup].
