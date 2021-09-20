@@ -1,4 +1,4 @@
-Sep 20 22:51:43 172.17.0.1 Sep 20 22:51:43 GRV-SYN-NAS System administrator:	System successfully deleted User [Jim Billy 123].
-Sep 18 00:17:56 172.17.0.1 Sep 18 00:17:56 GRV-SYN-NAS System administrator:	System successfully deleted User [test].
-Sep 16 00:22:17 172.17.0.1 Sep 16 00:22:17 GRV-SYN-NAS System administrator:	System successfully deleted User [n00b].
-Sep 16 00:04:59 172.17.0.1 Sep 16 00:04:59 GRV-SYN-NAS System administrator:	System successfully deleted User [test].
+Sep 20 22:51:43 172.17.0.1 Sep 20 22:51:43 Syno_Nas System administrator:	System successfully deleted User [Jim Billy 123].
+Sep 18 00:17:56 172.17.0.1 Sep 18 00:17:56 Syno_Nas System administrator:	System successfully deleted User [test].
+Sep 16 00:22:17 172.17.0.1 Sep 16 00:22:17 Syno_Nas System administrator:	System successfully deleted User [n00b].
+Sep 16 00:04:59 172.17.0.1 Sep 16 00:04:59 Syno_Nas System administrator:	System successfully deleted User [test].
