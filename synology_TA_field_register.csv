@@ -18,7 +18,7 @@
 ,synology:general,synology_general_package,./Example Logs/synology_general_package.log,"host_ip, hostname, message, user, package_name",Package\s\[(?<package_name>.+?(?=\]))\]\shas\sbeen\ssuccessfully\s(?<package_status>.+?(?=\.)),A Synology Package has been modified.,In Progress,Satiex
 ,synology:general,synology_general_recycle_bin,./Example Logs/synology_general_recycle_bin.log,"message, shared_folder, action",Recycle\sbin\sof\sshared\sfolder\s\[(?<shared_folder>.+?(?=\]))\]\swas\senabled.,The Recycle Bin settings for a Shared Folder was changed.,In Progress,Satiex
 ,synology:general,synology_general_shared_folder,./Example Logs/synology_general_shared_folder.log,"host_ip, hostname, message, shared_folder, action",,A Shared Folder was modified.,,
-,,,Sep 16 22:41:50 172.17.0.1 Sep 16 22:41:50 SYN-NAS Connection: User [john.smith@ldap.local.com] from [192.168.19.59] failed to sign in to [DSM] via [password] due to authorization failure.,"host_ip, hostname, message, username, src_ip, application, auth_method",,There was a failed login attempt.,,
+,,synology_conn_auth_failure,./Example Logs/synology_conn_auth_failure.log,"host_ip, hostname, message, username, src_ip, application, auth_method",,There was a failed login attempt.,,
 ,synology:file_transfer,synology_file_transfer_rename,./Example Logs/synology_file_transfer_rename.log,"host_ip, hostname, original_path, new_path, file_folder, file_size, user, src_ip",,A user renamed a file via SMB.,,
 ,synology:general,synology_general_fan_speed,./Example Logs/synology_general_fan_speed.log,,,The system fanspeed was changed.,,
 ,synology:general,synology_general_timezone_changed,./Example Logs/synology_general_timezone_changed.log,,,The system timezone was changed.,,
