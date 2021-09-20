@@ -1,17 +1,17 @@
-Sep 20 17:37:16 172.17.0.1 Sep 20 17:37:16 GRV-SYN-NAS System administrator:	SNMP service was stopped.
-Sep 20 17:37:09 172.17.0.1 Sep 20 17:37:09 GRV-SYN-NAS System administrator:	SNMP service was started.
-Sep 20 17:21:33 172.17.0.1 Sep 20 17:21:33 GRV-SYN-NAS System administrator:	FTP service was stopped.
-Sep 20 17:21:25 172.17.0.1 Sep 20 17:21:25 GRV-SYN-NAS System administrator:	FTP service was started.
-Sep 19 15:55:09 172.17.0.1 Sep 19 15:55:09 GRV-SYN-NAS System administrator:	FTP service was stopped.
-Sep 17 00:27:41 172.17.0.1 Sep 17 00:27:41 GRV-SYN-NAS System SYSTEM:	[Synology Drive Server] service was stopped.
-Sep 16 22:45:38 172.17.0.1 Sep 16 22:45:38 GRV-SYN-NAS System SYSTEM:	[Synology Drive Server] service was started.
-Sep 16 22:45:03 172.17.0.1 Sep 16 22:45:03 GRV-SYN-NAS System SYSTEM:	[Synology Drive Server] service was stopped.
-Sep 20 17:21:32 172.17.0.1 Sep 20 17:21:32 GRV-SYN-NAS System: System successfully stopped [FTP].
-Sep 20 17:20:47 172.17.0.1 Sep 20 17:20:47 GRV-SYN-NAS System: System successfully stopped [NFS service].
-Sep 20 17:20:32 172.17.0.1 Sep 20 17:20:32 GRV-SYN-NAS System: System successfully stopped [Apple filing protocol service].
-Sep 19 15:55:08 172.17.0.1 Sep 19 15:55:08 GRV-SYN-NAS System: System successfully stopped [FTP].
-Sep 19 14:36:02 172.17.0.1 Sep 19 14:36:02 GRV-SYN-NAS System: System successfully stopped [NTP service].
-Sep 16 23:30:37 172.17.0.1 Sep 16 23:30:37 GRV-SYN-NAS System: System successfully stopped [Active Backup for Business].
-Sep 16 23:23:33 172.17.0.1 Sep 16 23:23:33 GRV-SYN-NAS System: System successfully stopped [Hyper Backup].
-Sep 16 22:45:18 172.17.0.1 Sep 16 22:45:18 GRV-SYN-NAS System: System successfully stopped [Universal Search].
-Sep 16 22:45:14 172.17.0.1 Sep 16 22:45:14 GRV-SYN-NAS System: System successfully stopped [Synology Drive Server].
+Sep 20 17:37:16 172.17.0.1 Sep 20 17:37:16 Syno_Nas System administrator:	SNMP service was stopped.
+Sep 20 17:37:09 172.17.0.1 Sep 20 17:37:09 Syno_Nas System administrator:	SNMP service was started.
+Sep 20 17:21:33 172.17.0.1 Sep 20 17:21:33 Syno_Nas System administrator:	FTP service was stopped.
+Sep 20 17:21:25 172.17.0.1 Sep 20 17:21:25 Syno_Nas System administrator:	FTP service was started.
+Sep 19 15:55:09 172.17.0.1 Sep 19 15:55:09 Syno_Nas System administrator:	FTP service was stopped.
+Sep 17 00:27:41 172.17.0.1 Sep 17 00:27:41 Syno_Nas System SYSTEM:	[Synology Drive Server] service was stopped.
+Sep 16 22:45:38 172.17.0.1 Sep 16 22:45:38 Syno_Nas System SYSTEM:	[Synology Drive Server] service was started.
+Sep 16 22:45:03 172.17.0.1 Sep 16 22:45:03 Syno_Nas System SYSTEM:	[Synology Drive Server] service was stopped.
+Sep 20 17:21:32 172.17.0.1 Sep 20 17:21:32 Syno_Nas System: System successfully stopped [FTP].
+Sep 20 17:20:47 172.17.0.1 Sep 20 17:20:47 Syno_Nas System: System successfully stopped [NFS service].
+Sep 20 17:20:32 172.17.0.1 Sep 20 17:20:32 Syno_Nas System: System successfully stopped [Apple filing protocol service].
+Sep 19 15:55:08 172.17.0.1 Sep 19 15:55:08 Syno_Nas System: System successfully stopped [FTP].
+Sep 19 14:36:02 172.17.0.1 Sep 19 14:36:02 Syno_Nas System: System successfully stopped [NTP service].
+Sep 16 23:30:37 172.17.0.1 Sep 16 23:30:37 Syno_Nas System: System successfully stopped [Active Backup for Business].
+Sep 16 23:23:33 172.17.0.1 Sep 16 23:23:33 Syno_Nas System: System successfully stopped [Hyper Backup].
+Sep 16 22:45:18 172.17.0.1 Sep 16 22:45:18 Syno_Nas System: System successfully stopped [Universal Search].
+Sep 16 22:45:14 172.17.0.1 Sep 16 22:45:14 Syno_Nas System: System successfully stopped [Synology Drive Server].
