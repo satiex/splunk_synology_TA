@@ -1,5 +1,5 @@
-Sep 20 21:48:40 172.17.0.1 Sep 20 21:48:40 GRV-SYN-NAS System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [time.google.com].
-Sep 20 21:47:52 172.17.0.1 Sep 20 21:47:52 GRV-SYN-NAS System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [127.0.0.1].
-Sep 20 21:47:00 172.17.0.1 Sep 20 21:47:00 GRV-SYN-NAS System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [time.nist.gov].
-Sep 20 21:46:42 172.17.0.1 Sep 20 21:46:42 GRV-SYN-NAS System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [pool.ntp.org].
-Sep 19 14:36:02 172.17.0.1 Sep 19 14:36:02 GRV-SYN-NAS System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [time.google.com].
+Sep 20 21:48:40 172.17.0.1 Sep 20 21:48:40 Syno_Nas System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [time.google.com].
+Sep 20 21:47:52 172.17.0.1 Sep 20 21:47:52 Syno_Nas System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [127.0.0.1].
+Sep 20 21:47:00 172.17.0.1 Sep 20 21:47:00 Syno_Nas System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [time.nist.gov].
+Sep 20 21:46:42 172.17.0.1 Sep 20 21:46:42 Syno_Nas System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [pool.ntp.org].
+Sep 19 14:36:02 172.17.0.1 Sep 19 14:36:02 Syno_Nas System administrator:	Network time synchronization is activated; the server will be synchronized with the network time server [time.google.com].
