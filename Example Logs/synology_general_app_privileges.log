@@ -1,0 +1,14 @@
+Sep 20 23:51:10 172.17.0.1 Sep 20 23:51:10 GRV-SYN-NAS System administrator:	The app privilege on app [Surveillance Station] for user [scan] was set to [allow] from [10.5.5.5/255.255.255.255].
+Sep 20 23:51:10 172.17.0.1 Sep 20 23:51:10 GRV-SYN-NAS System administrator:	The app privilege on app [Surveillance Station] for user [scan] was set to [allow] from [10.3.3.3].
+Sep 20 23:51:10 172.17.0.1 Sep 20 23:51:10 GRV-SYN-NAS System administrator:	The app privilege on app [Surveillance Station] for user [scan] was set to [allow] from [10.1.1.1].
+Sep 20 23:49:48 172.17.0.1 Sep 20 23:49:48 GRV-SYN-NAS System administrator:	The app privilege on app [Cloud Sync] for user [scan] was set to [allow] from [all IPs].
+Sep 20 23:49:48 172.17.0.1 Sep 20 23:49:48 GRV-SYN-NAS System administrator:	The app privilege on app [Synology Photos] for user [scan] was set to [allow] from [all IPs].
+Sep 20 23:49:48 172.17.0.1 Sep 20 23:49:48 GRV-SYN-NAS System administrator:	The app privilege on app [SFTP] for user [scan] was set to [deny] from [all IPs].
+Sep 20 23:49:36 172.17.0.1 Sep 20 23:49:36 GRV-SYN-NAS System administrator:	The app privilege on app [FTP] for user [scan] was set to [deny] from [10.2.2.0/255.255.255.0].
+Sep 20 23:49:36 172.17.0.1 Sep 20 23:49:36 GRV-SYN-NAS System administrator:	The app privilege on app [FTP] for user [scan] was set to [allow] from [192.168.2.6].
+Sep 20 23:48:56 172.17.0.1 Sep 20 23:48:56 GRV-SYN-NAS System administrator:	The app privilege on app [FTP] for user [scan] was set to [deny] from [all IPs].
+Sep 20 23:54:08 172.17.0.1 Sep 20 23:54:08 GRV-SYN-NAS System administrator:	The app privilege on app [Cloud Sync] for user [scan] was removed.
+Sep 20 23:54:04 172.17.0.1 Sep 20 23:54:04 GRV-SYN-NAS System administrator:	The app privilege on app [FTP] for user [scan] was removed.
+Sep 20 23:53:59 172.17.0.1 Sep 20 23:53:59 GRV-SYN-NAS System administrator:	The app privilege on app [Surveillance Station] for user [scan] was removed.
+Sep 20 23:53:52 172.17.0.1 Sep 20 23:53:52 GRV-SYN-NAS System administrator:	The app privilege on app [SFTP] for user [scan] was removed.
+Sep 20 23:53:52 172.17.0.1 Sep 20 23:53:52 GRV-SYN-NAS System administrator:	The app privilege on app [Synology Photos] for user [scan] was removed.
