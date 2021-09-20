@@ -25,3 +25,5 @@
 1022,synology:general,synology_general_log_enabled,./Example Logs/synology_general_log_enabled.log,,,A log source was enabled.,,
 1023,synology:general,synology_general_sftp_port,./Example Logs/synology_general_sftp_port.log,,,The SFTP Port was changed.,,
 1024,synology:general,synology_general_ssl,./Example Logs/synology_general_ssl.log,,,The SSL/TLS settings were changed.,,
+1025,synology:general,synology_general_app_privileges,./Example Logs/synology_general_app_privileges.log,,,,,
+,synology:general,synology_general_user_quota,./Example Logs/synology_general_user_quota,,,,,
