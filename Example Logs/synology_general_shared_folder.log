@@ -1,0 +1,7 @@
+Sep 20 23:19:19 172.17.0.1 Sep 20 23:19:19 GRV-SYN-NAS System administrator:	Normal shared folder [surveillance_2] was deleted.
+Sep 20 23:18:51 172.17.0.1 Sep 20 23:18:51 GRV-SYN-NAS System administrator:	Normal shared folder [surveillance] was renamed to [surveillance_2].
+Sep 20 23:17:09 172.17.0.1 Sep 20 23:17:09 GRV-SYN-NAS System administrator:	Normal shared folder [ActiveBackupforBusiness] was deleted.
+Sep 20 22:07:07 172.17.0.1 Sep 20 22:07:07 GRV-SYN-NAS System SYSTEM:	Normal shared folder [usbshare1] was created.
+Sep 20 17:33:07 172.17.0.1 Sep 20 17:33:07 GRV-SYN-NAS System administrator:	Normal shared folder [NetBackup] was created.
+Sep 16 23:25:38 172.17.0.1 Sep 16 23:25:37 GRV-SYN-NAS System administrator:	Normal shared folder [Remote_Backup] was created.
+Sep 16 23:18:57 172.17.0.1 Sep 16 23:18:57 GRV-SYN-NAS System administrator:	Normal shared folder [ActiveBackupforBusiness] was created.
