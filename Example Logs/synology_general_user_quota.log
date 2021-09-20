@@ -1,0 +1,8 @@
+Sep 20 23:55:58 172.17.0.1 Sep 20 23:55:58 GRV-SYN-NAS System administrator:	Change Quota of user [scan] from [50GB] to [No Limit] in [share:Documentaries].
+Sep 20 23:55:57 172.17.0.1 Sep 20 23:55:57 GRV-SYN-NAS System administrator:	Change Quota of user [scan] from [40GB] to [No Limit] in [share:docker].
+Sep 20 23:55:56 172.17.0.1 Sep 20 23:55:56 GRV-SYN-NAS System administrator:	Change Quota of user [scan] from [30GB] to [No Limit] in [share:Cyber Security].
+Sep 20 23:55:54 172.17.0.1 Sep 20 23:55:54 GRV-SYN-NAS System administrator:	Change Quota of user [scan] from [20GB] to [No Limit] in [share:Anime].
+Sep 20 23:55:43 172.17.0.1 Sep 20 23:55:43 GRV-SYN-NAS System administrator:	Change Quota of user [scan] from [No Limit] to [50GB] in [share:Documentaries].
+Sep 20 23:55:42 172.17.0.1 Sep 20 23:55:42 GRV-SYN-NAS System administrator:	Change Quota of user [scan] from [No Limit] to [40GB] in [share:docker].
+Sep 20 23:55:41 172.17.0.1 Sep 20 23:55:41 GRV-SYN-NAS System administrator:	Change Quota of user [scan] from [No Limit] to [30GB] in [share:Cyber Security].
+Sep 20 23:55:40 172.17.0.1 Sep 20 23:55:40 GRV-SYN-NAS System administrator:	Change Quota of user [scan] from [No Limit] to [20GB] in [share:Anime].
