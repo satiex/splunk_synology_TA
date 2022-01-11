@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "2.0.0", 
+  "info": {
+    "title": "Synology Add-on for Splunk", 
+    "id": {
+      "group": null, 
+      "name": "TA-synology", 
+      "version": "1.0.0"
+    }, 
+    "author": [
+      {
+        "name": "Satiex", 
+        "email": "", 
+        "company": ""
+      }
+    ], 
+    "releaseDate": null, 
+    "description": "Synology Add-on for Splunk", 
+    "classification": {
+      "intendedAudience": "IT", 
+      "categories": [ 
+        "IT Operations"
+      ], 
+      "developmentStatus": "Production/Stable"
+    }, 
+    "commonInformationModels": null, 
+    "license": {
+      "name": "GNU General Public License v3.0", 
+      "text": "LICENSE", 
+      "uri": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+    }, 
+    "privacyPolicy": {
+      "name": null, 
+      "text": null, 
+      "uri": null
+    }, 
+    "releaseNotes": {
+      "name": "README", 
+      "text": "README", 
+      "uri": "https://github.com/satiex/splunk_synology_TA/blob/main/README.md"
+    }
+  }, 
+  "dependencies": null, 
+  "tasks": null, 
+  "inputGroups": null, 
+  "incompatibleApps": null, 
+  "platformRequirements": null, 
+  "supportedDeployments": [
+    "*"
+  ], 
+  "targetWorkloads": [
+    "*"
+  ]
+}
