@@ -1,4 +1,6 @@
 # splunk_synology_TA
+[![CI](https://github.com/satiex/splunk_synology_TA/actions/workflows/ci.yml/badge.svg)](https://github.com/satiex/splunk_synology_TA/actions/workflows/ci.yml)
+
 This repo contains a Synology Technical Add-On for Splunk.
 
 ```
