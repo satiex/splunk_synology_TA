@@ -1,0 +1,89 @@
+name: CI
+on:
+  push:
+    branches:
+      - "main"
+      - "develop"
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
+  pull_request:
+    branches:
+      - "main"
+      - "develop"
+  
+jobs:
+
+  # Package App
+  package:
+    name: Package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          # semantic-release won't trigger a tagged build if this is not set false
+          persist-credentials: false
+      
+      # Our add-on contains Python code, so we need to install Python in the container
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      
+      # - name: Package Splunk App with SLIM
+      #   id: slim
+      #   uses: splunk/addonfactory-packaging-toolkit-action@v1.1.1
+      #   with:
+      #     source: /github/workspace/package
+
+      - name: Package Splunk App with CLI
+        run: |
+          pwd
+          ls -la
+          cd ${GITHUB_WORKSPACE}
+          mkdir dist
+          tar -zcvf dist/TA-synology.tar.gz TA-synology
+          cd dist
+          ls -la
+          pwd
+
+      - name: Upload package as an artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: package-splunkbase
+          path: /home/runner/work/splunk_synology_TA/splunk_synology_TA/dist
+        if: always()
+
+  # Run AppInspect CLI
+  appinspect-cli:
+    name: AppInspect CLI
+    needs: package
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        tags:
+          - "cloud"
+          - "appapproval"
+          - "deprecated_feature"
+          - "developer_guidance"
+          - "future"
+          - "self-service"
+          - "splunk_appinspect"
+    steps:
+      - name: Get AppInspect CLI
+        uses: actions/download-artifact@v2
+        with:
+          name: package-splunkbase
+          path: dist
+
+      - name: Run AppInspect CLI
+        uses: splunk/appinspect-cli-action@v1.3.0
+        with:
+          app_path: dist
+          included_tags: ${{ matrix.tags }}
+
+  # splunkbase-release:
+  #   name: Release to Splunkbase
+  #   needs: appinspect-cli
+  #   runs-on: ubuntu-latest
+
